@@ -1,3 +1,5 @@
-def git_operation():
-  print("I am adding example.py file to remote repository.")
-git operation()
+def read_kddcup1999():
+  with open('kddcup.data_10_percent_corrected', 'r') as f:
+    top10=f.read(100)
+    print(top10)
+read_kddcup1999()
